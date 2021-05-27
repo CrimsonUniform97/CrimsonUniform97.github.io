@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" codebase="http://www.mojang.com/notch/j4k2k6/miners4k/" href="miners4k.jnlp">
+	<information>
+		<title>Miners4k</title>
+		<vendor>Markus Persson</vendor>
+		<homepage href="http://www.mojang.com/notch/j4k2k6/miners4k/"/>
+		<description>Kinda like lemmings in under 4kb!</description>
+	</information>
+
+	<resources>
+		<j2se version="1.4+ 1.4*"/>
+		<jar href="miners4k.jar" main="true"/>
+	</resources>
+
+	<application-desc main-class="A"/>
+</jnlp>
