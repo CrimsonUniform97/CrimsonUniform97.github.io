@@ -1,0 +1,71 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+
+<head>
+    <title>joXSI - Java Open XSI Scene Importer</title>
+</head>
+
+<body bgcolor="#ffffff">
+    <img src="logo.gif" alt="joXSI logo"><br>
+    <h3>Overview</h3>
+    joXSI is a free, open source .xsi file importer for java.<br>
+    The goal is to have joXSI support everything in the xsi file format, including inverse kinematics and skinned
+    animation.<br>
+    <br>
+    <a href="demo/joXSI_demo.jnlp">Click here to launch a simple joXSI demo.</a> (JNLP)<br>
+    (It can take a few seconds before the model shows up after the window is visible.. have patience)
+
+    <h3>Status</h3>
+    joXSI is currently far from done. It doesn't even have a version number yet.<br>
+    So far, it does the following:
+    <ul>
+        <li>Parses all templates for xsi files version 3.5
+        <li>Builds vertex lists for vertex positions, colors, normals and up to four texture units
+        <li>Applies all FCurves in a clip on command (this means it supports simple srt animation)
+        <li>If there is an envelope, they are automatically applied to the vertex lists (this means it supports skinned
+            animation)
+        <li>Loads a texture by name. This is the ONLY thing it does with materials so far.
+        <li>Renders the scene via JOGL/JSR 231
+    </ul>
+
+    <h3>Download joXSI</h3>
+    joXSI is released under the BSD licence (see the LICENSE file).
+    <p>
+        <a href="joXSI_source.zip">Click here to download the source code</a> for joXSI, <a href="joXSI.jar">or here to
+            download the binaries</a>.<br> or <a href="joxsi-project-interchange.zip"
+            title="Eclipse 3.2 Project Interchange with source">here to download the source in a Eclipse 3.2 Project
+            Interchange.</a>
+        Or you can <a href="doc/index.html">browse the javadocs for joXSI</a> online.<br>
+
+    <h3>News</h3>
+    10/06/2007
+    <p>
+        joXSI is now hosted on SourceForge at <a
+            href="https://sourceforge.net/projects/joxsi/"
+            title="joXSI on SourceForge">sourceforge.net/projects/joxsi/</a>. SourceForge includes Subversion version
+        management system to manage the source code, a feature request tracker, a bug tracker, and project releases.
+    </p>
+    28/01/2006
+    <p>
+        There are now comments in the source code!</p>
+
+    <h3>Contributing</h3>
+    If you want to contribute to joXSI (either by suggesting patches, or by sending feedback), send an email to <a
+        href="mailto:markus@mojang.com">markus@mojang.com</a>. Please put
+    "joXSI" somewhere in the subject line or contact the developers through the <a
+        href="https://sourceforge.net/projects/joxsi/"
+        title="joXSI on SourceForge">SourceForge project page</a>.<br>
+    <br>
+    <br>
+    <br>
+    <script src="http://www.google-analytics.com/urchin.js"
+        type="text/javascript">
+        </script>
+    <script type="text/javascript">
+        _uacct = "UA-821429-2";
+        urchinTracker();
+    </script>
+</body>
+
+</html>
