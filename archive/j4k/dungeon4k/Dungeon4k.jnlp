@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app31.us.archive.org';v.server_ms=746;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=xTFGO54E" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=i68pdzR-" charset="utf-8"></script>
-<script type="text/javascript">
-  __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://www.mojang.com:80/j4k/dungeon4k/Dungeon4k.jnlp","20050306095803","https://web.archive.org/","web","/_static/",
-	      "1110103083");
-</script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=omkqRugM" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
-<!-- End Wayback Rewrite JS Include -->
 <jnlp spec="1.0" codebase="http://www.mojang.com/j4k/dungeon4k/" href="Dungeon4k.jnlp">
 
   <information>
@@ -27,26 +16,3 @@
     <argument>nofullscreen</argument>
   </application-desc>
 </jnlp>
-<!--
-     FILE ARCHIVED ON 09:58:03 Mar 06, 2005 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:59:30 May 27, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  xauthn.identify: 206.808
-  CDXLines.iter: 18.763 (3)
-  PetaboxLoader3.datanode: 383.852 (4)
-  captures_list: 671.263
-  exclusion.robots: 279.42
-  RedisCDXSource: 1.601
-  exclusion.robots.policy: 279.406
-  PetaboxLoader3.resolve: 40.8
-  esindex: 0.015
-  load_resource: 70.765
-  xauthn.chkprivs: 72.237
-  LoadShardBlock: 368.234 (3)
--->
