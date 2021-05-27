@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>The Intra Clinic</title>
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<meta name="description" content="Welcome to The Intra Clinic. Come on in and stay a while." />
+<meta name="keywords" content="the, intra, clinic" />
+<style type="text/css">
+<!--
+.style2 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+a:link {
+	color: #666666;
+}
+a:visited {
+	color: #666666;
+}
+.style3 {font-size: 24px; font-family: "Courier New", Courier, monospace;}
+body,td,th {
+	color: #666666;
+}
+.style9 {color: #666666}
+.style10 {font-size: 18px; color: #666666; }
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" alink="#5A5D63">
+<table width="100%" height="80%" align="center">
+    <tr>
+      <td width="100%" height="80%" align="center" valign="center">
+        <p class="style3"><span class="style9"><font size="5" face="Courier New, Courier, monospace">The Intra Clinic</font><br />
+        _______________________________</span></p>
+        <p class="style2"><span class="style10"><a href="about.html">About</a>&nbsp; <a href="archive.html">Archive</a>&nbsp; <a href="team.html">Team</a>&nbsp; <a href="news.html">News</a></span></p>
+        <p class="style2">&nbsp;</p>
+        <table border="0" cellpadding="2" cellspacing="2" background="bg.gif">
+          <tr>
+            <p id="demo"></p>
+
+            <script>
+              // Set the date we're counting down to
+              var countDownDate = new Date("Jun 1, 2021 18:00:00").getTime();
+
+              // Update the count down every 1 second
+              var x = setInterval(function () {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                  + minutes + "m " + seconds + "s ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                  clearInterval(x);
+                  document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+              }, 1000);
+            </script>
+            <td><div align="center"><img src="images/logo.gif"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="images/logo_banner.png" alt="banner" width="427" height="240" /></div></td>
+          </tr>
+        </table>
+        <br>
+        <font face="sans-serif" size="1">everything here is copyright  <a
+            href="mailto:markus@theintraclinic.com">markus
+            persson</a> and <a href="copyright.html">other parties</a>.</font></td>
+    </tr>
+</table>
+</body>
+
+</html>
+<!--
