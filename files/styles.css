@@ -1,0 +1,25 @@
+body {
+  font-family: Courier New, Courier, monospace;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.style1 {
+  font-size: 24px;
+}
+
+.style2 {
+  font-size: 18px;
+}
+
+.style5 {
+  font-size: 16px;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
