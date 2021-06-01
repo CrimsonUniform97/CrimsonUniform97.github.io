@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="http://www.theintraclinic.com/stark" href="stark.jnlp"> 
+	<information> 
+		<title>Stark</title> 
+		<vendor>Rubberbrain</vendor> 
+		<homepage href="http://www.theintraclinic.com/stark/"/> 
+		<description>A java 2.5 graphics engine, compatible with the Doom wad format.</description> 
+		<offline-allowed/> 
+	</information> 
+	<security> 
+		<all-permissions/> 
+	</security> 
+	<resources> 
+		<j2se version="1.4"/> 
+		<jar href="StarkStandalone.jar"/> 
+	</resources>
+	<application-desc main-class="org.rubberbrain.stark.StarkFullscreen"/> 
+</jnlp> 
