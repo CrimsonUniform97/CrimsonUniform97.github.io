@@ -1,2 +1,6 @@
---News--
-This is just a placeholder
+--Recent News--
+
+Hello World
+[INSERT DATE]
+
+This is the news.
