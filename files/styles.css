@@ -2,18 +2,27 @@ body {
   font-family: Courier New, Courier, monospace;
   color: #ffffff;
   background-color: #000000;
+  font-size: 17px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
 }
 
-.style1 {
+h1 {
   font-size: 24px;
 }
 
-.style2 {
+h2 {
+  font-size: 20px;
+}
+
+h3 {
   font-size: 18px;
 }
 
-.style5 {
-  font-size: 16px;
+time {
+  font-size: 18px;
+  font-style: italic;
 }
 
 a:link {
@@ -22,4 +31,12 @@ a:link {
 
 a:visited {
   color: #ffffff;
+}
+
+header {
+  font-size: 19px;
+}
+
+footer {
+  font-size: 11px;
 }

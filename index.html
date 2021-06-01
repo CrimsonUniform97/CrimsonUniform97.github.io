@@ -1,68 +1,30 @@
 <!DOCTYPE html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>The Intra Clinic</title>
-<link rel="shortcut icon" href="images/favicon.ico"/>
-<meta name="description" content="Welcome to The Intra Clinic. Come on in and stay a while." />
-<meta name="keywords" content="the, intra, clinic, website, home" />
-<link rel="stylesheet" href="./files/styles.css">
+  <title>The Intra Clinic - Home</title>
+  <link rel="shortcut icon" href="http://theintraclinic.com/images/favicon.ico" />
+  <meta name="description" content="Welcome to The Intra Clinic. Come on in and stay a while." />
+  <meta name="keywords" content="the, intra, clinic, website, home" />
+  <link rel="stylesheet" href="http://theintraclinic.com/files/styles.css">
 </head>
 
-<body bgcolor="#000000" alink="#5A5D63">
-<table width="100%" height="80%" align="center">
-    <tr>
-      <td width="100%" height="80%" align="center" valign="center">
-        <p class="style3"><span class="style9"><font size="5" face="Courier New, Courier, monospace">The Intra Clinic</font><br />
-        _______________________________</span></p>
-        <p class="style2"><span class="style10"><a href="https://theintraclinic.com/about">About</a>&nbsp; <a href="https://theintraclinic.com/archive">Archive</a>&nbsp; <a href="https://theintraclinic.com/team">Team</a>&nbsp; <a href="https://theintraclinic.com/news">News</a></span></p>
-        <p class="style2">&nbsp;</p>
-        <table border="0" cellpadding="2" cellspacing="2" background="bg.gif">
-          <tr>
-            <p id="demo"></p>
+<body>
+  <header>
+    <h1>The Intra Clinic<br>_____________________</h1>
+    <a href="https://theintraclinic.com/about">About</a>
+    <a href="https://theintraclinic.com/archive">Archive</a>
+    <a href="https://theintraclinic.com/team">Team</a>
+    <a href="https://theintraclinic.com/news">News</a>
+    <br><br>
+  </header>
 
-            <script>
-              // Set the date we're counting down to
-              var countDownDate = new Date("Jun 1, 2021 18:00:00").getTime();
+  <img src="https://theintraclinic.com/images/logo.gif"><br>
+  <img src="https://theintraclinic.com/images/logo_banner.png" width="427" height="240">
 
-              // Update the count down every 1 second
-              var x = setInterval(function () {
-
-                // Get today's date and time
-                var now = new Date().getTime();
-
-                // Find the distance between now and the count down date
-                var distance = countDownDate - now;
-
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                // Display the result in the element with id="demo"
-                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                  + minutes + "m " + seconds + "s ";
-
-                // If the count down is finished, write some text
-                if (distance < 0) {
-                  clearInterval(x);
-                  document.getElementById("demo").innerHTML = "EXPIRED";
-                }
-              }, 1000);
-            </script>
-            <td><div align="center"><img src="images/logo.gif"></div></td>
-          </tr>
-          <tr>
-            <td><div align="center"><img src="images/logo_banner.png" alt="logo banner" width="427" height="240" /></div></td>
-          </tr>
-        </table>
-        <br>
-        <font face="sans-serif" size="1">everything here is copyright  <a
-            href="mailto:markus@theintraclinic.com">markus
-            persson</a> and <a href="https://theintraclinic.com/copyright">other parties</a>.</font></td>
-    </tr>
-</table>
+  <footer>
+    <br>
+    Everything here is (c) copyright <a href="https://twitter.com/notch">Markus Persson</a> and <a
+      href="https://theintraclinic.com/copyright">other parties</a> </footer>
 </body>
 
 </html>
-<!--
