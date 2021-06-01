@@ -1,0 +1,6 @@
+--Recent News--
+
+Hello World
+[INSERT DATE]
+
+This is the news.
