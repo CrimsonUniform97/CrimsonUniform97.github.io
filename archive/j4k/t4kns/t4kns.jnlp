@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.5+" codebase="http://www.mojang.com/notch/j4k/t4kns/" href="t4kns.jnlp">
+<information>
+    <title>t4kns</title>
+    <vendor>Markus Persson</vendor>
+    <homepage href="http://www.mojang.com/notch/j4k/t4kns/"/>
+    <offline-allowed/> 
+</information>
+<resources>
+<j2se version="1.4.2+"/> 
+<jar href="http://www.mojang.com/notch/j4k/t4kns/t4kns.jar"/>
+</resources>
+<applet-desc name="t4kns" main-class="A" width="640" height="480"/>
+</jnlp>
