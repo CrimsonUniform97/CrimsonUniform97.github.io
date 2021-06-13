@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" codebase="http://www.mojang.com/j4k/dungeon4k/" href="Dungeon4k.jnlp">
+
+  <information>
+    <title>Dungeon4k</title>
+    <vendor>Mojang Specifications</vendor>
+    <homepage href="http://www.mojang.com/"/>
+    <description>A dungeon exploration game in less than 4kb</description>
+  </information>
+
+    <resources>
+	<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+      <jar href="Dungeon4k.jar" main="true"/>
+    </resources>
+  <application-desc main-class="D">
+    <argument>nofullscreen</argument>
+  </application-desc>
+</jnlp>
