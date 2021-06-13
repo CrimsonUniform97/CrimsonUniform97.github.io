@@ -29,7 +29,7 @@ time {
 img {
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: right;
 }
 
 a:link {
@@ -56,7 +56,12 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  border: 1px solid #dddddd;
+}
+#noborder {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #dddddd00;
 }
