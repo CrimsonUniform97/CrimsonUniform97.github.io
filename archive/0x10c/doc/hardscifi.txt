@@ -1,0 +1,15 @@
+So what do I mean by "Hard Science Fiction"?
+
+Probably not as hard as you're hoping!
+
+I mean I will try to make sure that the science in the game has some kind of plausible
+theoretical basis in reality, and that I want to be corrected if I make any mistakes.
+If I have to go against any current science, I want it to be an informed decision.
+For example, because time needs to run at the same speed for all players in the game,
+I am probably going to have to add some way to travel faster than the speed of light.
+
+So basically, as few hand-wavey things as possible, with the rest rigorously explained.
+
+If you're an expert on a field I've made a mistake in, PLEASE let me know!
+
+/ Notch
