@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <title>Blast Passage - About the Game</title>
+</head>
+
+<body bgcolor="#202020" text="#b0b080" link="#8080ff" alink="#ffffff" vlink="#808090">
+
+    <img src="about/logo.gif"><br>
+
+    <h2>About</h2>
+    Blast Passage was made by <a href="https://web.archive.org/web/20081017182423/http://www.mojang.com/notch/">Markus
+        Persson</a>.
+    It is an entry in the 2008 <a href="http://www.retroremakes.com/">Retro
+        Remakes</a> competition, in the 8 bit
+    mashup category.<br>
+    You can play it <a
+        href="index.html">here</a>.
+    <p>
+        The game is more or less a straight mix between <a
+            href="http://en.wikipedia.org/wiki/Bomberman">Bomberman</a>
+        and <a
+            href="http://en.wikipedia.org/wiki/Gauntlet_(arcade_game)">Gauntlet</a>,
+        using enemies and levels from
+        Gauntlet, and the main character, attack system and power-ups from Bomberman.<br>
+        The graphics limitations and sound capabilities are intentionally similar to those an 8-bit game console.
+        Specifically, the graphics have the same limitations as the
+        <a href="http://en.wikipedia.org/wiki/Sega_Master_System">Sega Master
+            System</a>, while the sound is similar to
+        the <a href="http://en.wikipedia.org/wiki/MOS_Technology_SID">sound
+            chip in a Commodore 64</a>.
+    <p>
+        There's no copyrighted material in the game. While the graphics might appear similar to that of the original
+        games,
+        everything has been made from scratch (in <a
+            href="http://www.getpaint.net/">Paint.net</a>).
+
+        <br><br>
+    <h2>Playing the Game</h2>
+    First of all, make sure that you have <a
+        href="http://www.java.com/">Java</a> installed.
+    <p>
+        To play the game, simply go <a
+            href="index.html">here</a>.
+        Instructions on how to
+        play are included in the game from the main menu.<br>
+        To play the game offline, download <a href="BlastPassageOffline.zip">this file</a>, then
+        open index.html in a web browser.<br>
+        To host your own multiplayer server, download <a href="BlastPassageServer.zip">this file</a>, and
+        follow the instructions in readme.txt.<br>
+
+        <br><br>
+    <h2>Technical Details</h2>
+    <strong>GRAPHICS</strong>
+    <p>
+        The screen resolution is 320x240 pixels, mostly because I LOOOVE that resolution, but also because the
+        competition
+        rules state that I have to show a splash screen of at least 640x480 pixels. Since I display the graphics at a X2
+        zoom, this fits perfectly.
+    <p>
+        All graphics are limited to the Master System 6-bit palette:<br>
+        <img src="about/mastersystempalette.png"
+            float="left"><br>
+        There's a sprite palette of 15 colors (+1 color for transparent) from that master palette which all moving
+        graphics share.<br>
+        Stationary graphics use another palette of 11 colors, with the last four colors dedicated for floor and wall
+        graphics. That way, I can simply change the colors of the four last colors in that palette to dynamically change
+        the colors of each level.
+    <p>
+        The only place I really cheat is with the number of visible sprites, and with the speed of the graphics
+        rendering.
+        The opening animation, for example, would probably not be possible on a real 8-Bit computer.
+    <p>
+        When loading the graphics, I apply some desaturation and gamma correction for a more genuine TV appearance.<br>
+        If enabled in the options, I also do some minor image post processing that adds some slight vertical blur.
+    <p>
+        <br>
+        <strong>SOUND</strong>
+    <p>
+        I didn't have the energy to implement a full SID emulation, so I made my own virtual sound chip called the SYD.
+        It has the following specifications:
+
+        <code><pre>
+      3 Analogue Stereo Waveform Generators
+      1 11KHZ 4-bit PCM player
+      Programmable interrupt
+      Ring modulation between any two waveform generators</pre></code>
+
+        Any two waveform channels can be set to ring modulation mode. This overrides the stereo mode
+        for both channels and outputs the result in the center channel.<br>
+        The programmable interrupt used for triggering notes in music in a timely fashion.
+    <p>
+        Inputs for the waveform generators:
+
+        <code><pre>
+      bits | name        | description
+      -----+-------------+-------------------------------------------------------------
+      16   | hz          | Starting HZ for the note
+      16   | hztarget    | Ending HZ for the note. Used for slides
+      4    | saw         | Saw waveform volume
+      4    | triangle    | Triangle waveform volume
+      4    | pulse       | Pulse waveform volume
+      4    | noise       | Noise volume
+      4    | duty        | The duty cycle of the pulse waveform
+      16   | ADSR        | Four bits for each element. ADR is in logarithmic scale.
+      2    | channel     | Stereo channel mode. 0=center. 1=left. 2=right. 3=sign split
+      2    | filter      | Filter type. 0=no filter. 1=lowpass. 2=highpass. 3=bandpass
+      4    | f.strength  | Strength of the filter
+    </pre></code>
+
+        Because 4 bit sound is fairly horrible, the PCM player does some dynamic range compression to avoid fuzz from
+        low volume sounds. This slightly distorts the sound (it's an intentional "bug" :D).
+    <p>
+        I believe this should be a fairly accurate interpretation of the sound capabilities of 8 bit game consoles.
+    <p>
+        <br>
+        <strong>GENERAL</strong>
+    <p>
+        The game runs at 60 hz regardless of computer power. If it's not possible to run the game fast enough,
+        it does automatic frameskipping, but the logic still happens at 60 hz.
+    <p>
+        Collision detection, rendering, and monster updates all use the same fast space partitioning engine I made for
+        this game. Basically, it just splits the level up into 64x64 pixel chunks and keeps a list of all sprites in
+        each
+        chunk, and provides some fast functions for getting all entities within a certain pixel area.
+    <p>
+        I totally ignore any cpu power or memory limitations of 8 bit computers, but I have tried to make the game run
+        smoothly even on older computers. After disabling the fancy post processing in the options, the game runs at the
+        full 60 fps even on the very old
+        worst case test computer at work, so I'm very happy with the performance.
+    <p>--<br>
+        I hope you've enjoyed this game as much as I've enjoyed making it.<br>
+        <a href="https://web.archive.org/web/20081017182423/http://www.mojang.com/notch/">Markus Persson</a>
+    <p><br>
+
+</body>
+
+</html>
