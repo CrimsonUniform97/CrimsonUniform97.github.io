@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Intra Clinic - {{ page.title }}</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <meta name="description" content="Welcome to The Intra Clinic. Come on in and stay a while." />
+    <meta name="keywords" content="the, intra, clinic, website, home" />
+</head>
+<center>
+
+    <body bgcolor="#000000" text="#ffffff" link="#ffffff" alink="#ffffff" vlink="#ffffff" width="700px"
+        style="max-width:700px">
+        <font face="courier" size="2">
+            <header>
+                <h1>The Intra Clinic<br></h1>
+                <hr>
+                <a href="/">Home</a>
+                <a href="/archive">Archive</a>
+                <a href="/team">Team</a>
+                <a href="/news">News</a>
+                <br><br>
+            </header>
+
+            <h2>{{ page.title }}</h2>
+            {{ content }}
+            <img src="/images/logo.gif" alt="logo"><br>
+            <img src="/images/logo_banner.png" alt="logo banner">
+
+            <footer>
+                <hr>
+                Everything here is (c) copyright <a href="https://twitter.com/notch">Markus Persson</a> and <a
+                    href="/copyright">other parties</a>
+            </footer>
+        </font>
+    </body>
+</center>
+
+</html>
