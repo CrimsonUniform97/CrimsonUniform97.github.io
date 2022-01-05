@@ -1,0 +1,19 @@
+<? header ("Content-Type: application/x-java-jnlp-file"); ?>
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Blast/" href="Blast.jnlp">
+	<information>
+		<title>Blast</title>
+		<vendor>Joakim Johnson</vendor>
+		<homepage href="http://valhallawebdesign.com/Joakim/Java/4K/Blast"/>
+		<description>Blast!</description>
+		<offline-allowed/>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+		<jar href="Blast.jar"/>
+	</resources>
+	<application-desc main-class="G"/>
+</jnlp>

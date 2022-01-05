@@ -1,0 +1,16 @@
+<? header ("Content-Type: application/x-java-jnlp-file"); ?>
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Collapse4K" href="Collapse4K.jnlp">
+	<information>
+		<title>Collapse 4K</title>
+		<vendor>Joakim Johnson</vendor>
+		<homepage href="http://valhallawebdesign.com/Joakim/Java/4K/Collapse/"/>
+		<description>Collapse!</description>
+		<offline-allowed/>
+	</information>
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+		<jar href="Collapse4K.jar"/>
+	</resources>
+	<application-desc/>
+</jnlp>

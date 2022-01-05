@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Hunters4K/" href="Hunters4K.jnlp">
+	<information>
+		<title>Hunters 4K</title>
+		<vendor>Markus Persson</vendor>
+		<homepage href=""/>
+		<description>Hunters 4K</description>
+		<offline-allowed/>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+		<jar href="Hunters4K.jar"/>
+	</resources>
+	<argument>window</argument>
+	<application-desc main-class="D"/>
+</jnlp>

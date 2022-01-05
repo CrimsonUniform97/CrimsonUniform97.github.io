@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/GridRunnerX/"
+  href="GridRunnerX.jnlp">
+  <information>
+    <title>Grid Runner X</title>
+    <vendor>Kev Glass - New Dawn Software</vendor>
+    <homepage href="http://www.cokeandcode.com"/>
+    <description>Grid Runner game in 4k</description>
+    <description kind="short">Grid Runner game in 4k</description>
+    <icon href="icon.gif"/>
+    <offline-allowed/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <property name="sun.java2d.noddraw" value="true"/>
+    <jar href="GridRunnerX.jar"/>       
+  </resources>  
+  <application-desc/>
+</jnlp>

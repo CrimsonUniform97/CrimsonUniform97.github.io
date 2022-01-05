@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/SonicRacer4K/" href="SonicRacer4K.jnlp">
+<information>
+<title>Sonic Racer 4k</title>
+<vendor>Markus Persson - mojang.com</vendor>
+<homepage href="http://mojang.com/"/>
+<description>4K Racer with Sonic</description>
+<description kind="short">4K Racer with Sonic</description>
+<offline-allowed/>
+</information>
+<security>
+<all-permissions/>
+</security>
+<resources>
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+<jar href="SonicRacer4K.jar"/>
+</resources>
+<resources os="Windows">
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+<!--<jar href="lib/jogl-win32.jar"/>
+<nativelib href="lib/jogl-win32-native.jar"/>
+<nativelib href="lib/gagetimer-native.jar"/>-->
+</resources>
+<resources os="SunOS" arch="sparc">
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+<!--<jar href="lib/jogl-solsparc.jar"/>
+<nativelib href="lib/jogl-solsparc-native.jar"/>-->
+</resources>
+<resources os="Linux">
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+<!--<jar href="lib/jogl-linux.jar"/>
+<nativelib href="lib/jogl-linux-native.jar"/>-->
+</resources>
+<resources os="MacOS">
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+<!--<jar href="lib/jogl-macos.jar"/>
+<nativelib href="lib/jogl-macos-native.jar"/>-->
+</resources>
+<application-desc/>
+</jnlp>

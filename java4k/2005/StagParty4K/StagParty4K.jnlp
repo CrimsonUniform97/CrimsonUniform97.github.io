@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/StagParty4K/" href="StagParty4K.jnlp">
+      <information>
+            <title>Stag Party 4k</title>
+            <vendor>Mlk</vendor>
+            <homepage href=""/>
+            <description>A really really bad game</description>
+            <offline-allowed/>
+      </information>
+      <resources>
+            <j2se href="http://java.sun.com/products/autodl/j2se" 
+		  version="1.4+"/>
+            <jar href="StagParty4K.jar"/>            
+      </resources>
+      <application-desc main-class="Mlk3D" />
+</jnlp> 

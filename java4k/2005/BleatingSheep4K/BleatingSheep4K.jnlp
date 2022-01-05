@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/BleatingSheep4K/"
+	href="BleatingSheep4K.jnlp" >
+        <information>
+                <title>Revenge of the Bleating Sheep</title>
+                <vendor>Tank Software</vendor>
+                <homepage href="http://tanksoftware.com/rotbs4k/"/>
+                <description>Revenge of the Bleating Sheep 4K</description>
+                <description kind="short">Revenge of the Bleating Sheep 4K</<description>
+                <icon href="http://tanksoftware.com/rotbs4k/icon3.gif"/>
+                <icon kind="splash" href="http://tanksoftware.com/rotbs4k/splash2.jpg"/>
+                <offline-allowed/>
+        </information>
+        
+	<security>
+                <all-permissions/>
+        </security>
+	
+        <resources>
+                <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+                <jar href="BleatingSheep4K-ws.jar" main="true" />
+        </resources>
+        
+  <application-desc main-class="T"/>
+
+	
+</jnlp>

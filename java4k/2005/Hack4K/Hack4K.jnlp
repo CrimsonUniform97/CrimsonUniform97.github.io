@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/Hack4K/"
+  href="Hack4K.jnlp">
+  <information>
+    <title>Hack 4K</title>
+    <vendor>Kev Glass - New Dawn Software</vendor>
+    <homepage href="http://www.cokeandcode.com"/>
+    <description>Hack 4K</description>
+    <description kind="short">Hack 4K</description>
+    <icon href="icon.gif"/>
+    <offline-allowed/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <property name="sun.java2d.noddraw" value="true"/>
+    <jar href="Hack4K.jar"/>       
+  </resources>  
+  <application-desc/>
+</jnlp>

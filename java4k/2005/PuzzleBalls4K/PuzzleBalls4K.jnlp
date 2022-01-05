@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp
+spec="1.0+"
+codebase="http://unlimited.woogley.net/games/archive/4K05/PuzzleBalls4K/"
+href="PuzzleBalls4K.jnlp">
+<information>
+<title>Puzzle Balls 4K</title>
+<vendor>Rafael Carvallo - RDCZ</vendor>
+<homepage href="http://www.dcc.uchile.cl/~rcarvall/"/>
+<description>Put five balls of the same color to meake them 
+dissapear</description>
+<description kind="short">Puzzle</description>
+<offline-allowed/>
+</information>
+<resources>
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+<jar href="PuzzleBalls4K.jar"/>
+</resources>
+<application-desc main-class ="P"/>
+</jnlp>

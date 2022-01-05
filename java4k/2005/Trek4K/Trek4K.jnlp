@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Trek4K/" href="Trek4K.jnlp">
+      <information>
+            <title>Trek 4K</title>
+            <vendor>Rick McConney</vendor>
+            <homepage href="http://woogley.net/j4k/trek/"/>
+            <description>Asteroids like game in 4K</description>
+            <offline-allowed/>
+      </information>
+      <resources>
+            <j2se href="http://java.sun.com/products/autodl/j2se" 
+		  version="1.4+"/>
+            <jar href="Trek4K.jar"/>            
+      </resources>
+      <application-desc main-class="T" />
+</jnlp> 

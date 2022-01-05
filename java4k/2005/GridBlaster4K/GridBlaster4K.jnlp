@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/GridBlaster4K/" href="GridBlaster4K.jnlp">	
+	<information>
+		<title>GridBlaster 4K</title>
+		<vendor>H. Clower</vendor>
+		<homepage href="http://w4jdh.net/~seigfried/g4k/"/>
+		<description>GridBlaster 4K</description>
+		<description kind="short">GridBlaster 4K</description>
+		<offline-allowed/>
+	</information>
+	<resources>
+	     <j2se version="1.4+"/>
+	     <jar href="GridBlaster4K.jar" main="true" />
+	   </resources>
+	  <application-desc main-class="G4k"/>
+	<application-desc/>
+</jnlp>

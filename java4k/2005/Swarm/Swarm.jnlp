@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ 
+<!-- JNLP File for Tetris -->  
+<jnlp  
+  spec="1.0+"  
+  codebase="http://unlimited.woogley.net/games/archive/4K05/Swarm/"  
+  href="Swarm.jnlp">  
+  <information>  
+    <title>Swarm (Java 4K entry)</title>  
+    <vendor>MAB Publishing</vendor>  
+    <homepage href="http://members.rogers.com/mark.bernard/"/>  
+    <description>Swarm: Entry for Java 4K competition</description>  
+    <description kind="short">Swarm</description>  
+    <offline-allowed/>  
+  </information>  
+  <security>  
+ <all-permissions/>  
+  </security> 
+  <resources>  
+    <j2se version="1.4+"/>  
+    <jar href="Swarm.jar"/> 
+  </resources>  
+  <j2se version="1.4+" initial-heap-size="40m" max-heap-size="40m" java-vm-args="-Xincgc"/>  
+  <application-desc main-class="G"/>  
+</jnlp> 

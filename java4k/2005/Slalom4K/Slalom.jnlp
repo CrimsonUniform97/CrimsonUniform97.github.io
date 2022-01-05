@@ -1,0 +1,16 @@
+<? header ("Content-Type: application/x-java-jnlp-file"); ?>
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Slalom4K/" href="Slalom4K.jnlp">
+	<information>
+		<title>Slalom 4K</title>
+		<vendor>Joakim Johnson</vendor>
+		<homepage href="http://valhallawebdesign.com/Joakim/Java/4K/Slalom"/>
+		<description>Slalom</description>
+		<offline-allowed/>
+	</information>
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+		<jar href="Slalom4K.jar"/>
+	</resources>
+	<application-desc/>
+</jnlp>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/IsOlationNet/"
+  href="IsOlationnet.jnlp">
+  <information>
+    <title>IsOlation Net</title>
+    <vendor>Kev Glass - New Dawn Software</vendor>
+    <homepage href="http://www.cokeandcode.com"/>
+    <description>Multiplayer 4k Game</description>
+    <description kind="short">Multiplayer 4k Game</description>
+    <icon href="icon.gif"/>
+    <offline-allowed/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <jar href="IsOlationNet.jar"/>       
+  </resources>  
+  <application-desc/>
+</jnlp>

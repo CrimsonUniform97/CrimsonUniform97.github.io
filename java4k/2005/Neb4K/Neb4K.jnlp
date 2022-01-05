@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/Neb4K/"
+  href="Neb4K.jnlp">
+  <information>
+    <title>Neb 4K</title>
+    <vendor>Kev Glass - New Dawn Software</vendor>
+    <homepage href="http://www.cokeandcode.com"/>
+    <description>An Insult to the Great Nebulus</description>
+    <description kind="short">An Insult to the Great Nebulus</description>
+    <icon href="icon.gif"/>
+    <offline-allowed/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <jar href="Neb4K.jar"/>       
+  </resources>  
+  <application-desc/>
+</jnlp>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/StarDodger4K"
+  href="StarDodger4K.jnlp">
+  <information>
+    <title>Stardodger</title>
+    <vendor>John Greenhow</vendor>
+    <homepage href="http://games.cokeandcode.com"/>
+    <description>Stardodger</description>
+    <description kind="short">Stardodger</description>
+    <icon href="icon.gif"/>
+    <offline-allowed/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <property name="sun.java2d.noddraw" value="true"/>
+    <jar href="StarDodger4K.jar"/>       
+  </resources>  
+  <application-desc/>
+</jnlp>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for The Deadly Labyrinth -->
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/Labyrinth4K/"
+  href="Labyrinth4K.jnlp">
+  <information>
+    <title>The Deadly Labyrinth</title>
+    <vendor>EnOrmous Games</vendor>
+    <homepage href="http://www.enormousgames.com/subsites/labyrinth4k/"/>
+    <description>The Deadly Labyrinth</description>
+    <description kind="short">The Deadly Labyrinth</description>
+    <icon href="labyrinth4k.gif"/>
+    <icon kind="splash" href="labyrinth4k.gif"/>
+    <offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.4+"/>
+    <jar href="Labyrinth4K.jar"/>
+  </resources>
+  <application-desc main-class="L"/>
+</jnlp> 

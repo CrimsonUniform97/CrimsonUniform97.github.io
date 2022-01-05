@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="0.2 1.0"
+      codebase="http://unlimited.woogley.net/games/archive/4K05/AnotherTetris4K"
+      href="AnotherTetris4K.jnlp">
+   <information>
+      <title>AnotherTetris4K</title>
+      <vendor>flub</vendor>
+      <homepage href="http://www.woogley.net/java4k.html"/>
+      <description>flub's entry for the 2005 Java 4K Game Programming Contest (J4K). Kudos to Alexey Pajitnov!</description>
+      <description kind="short">flub's entry for the 2005 Java 4K Game Programming Contest (J4K). Kudos to Alexey Pajitnov!</description>
+      <offline-allowed/>
+   </information>
+   <resources>
+      <j2se version="1.5+" href="http://java.sun.com/products/autodl/j2se"/>
+      <j2se version="1.5+"/>
+      <jar href="AnotherTetris4K.jar" main="true" download="eager"/>
+   </resources>
+   <application-desc main-class="t4k"/>
+</jnlp>

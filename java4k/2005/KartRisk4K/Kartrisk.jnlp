@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Kartrisk/" href="Kartrisk.jnlp">
+
+  <information>
+     <title>Kartrisk 4k</title>
+     <vendor>Måns Olson & Åke Rosén</vendor>
+     <homepage href="http://www.x2d.org" />
+     <description>Kartrisk 4k - a j4k competition entry.</description>
+     <offline-allowed />
+   </information>
+
+  <resources>
+     <j2se version="1.4+"/>
+     <jar href="Kartrisk.jar" main="true" />
+   </resources>
+
+  <application-desc main-class="Kartrisk4k"/>
+
+  <security>
+     <all-permissions/>
+  </security>
+
+</jnlp>

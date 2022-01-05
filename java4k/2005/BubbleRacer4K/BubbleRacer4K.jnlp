@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp
+spec="1.0+"
+codebase="http://unlimited.woogley.net/games/archive/4K05/BubbleRacer4K"
+href="BubbleRacer4K.jnlp">
+<information>
+<title>BubbleRacer4K</title>
+<vendor>Lilian Chamontin</vendor>
+<homepage href="http://woogley.net/j4k/bubbleracer4k"/>
+<description>J4K 2005 special edition</description>
+<description kind="short">J4K 2005 special edition</description>
+</information>
+<resources>
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+<jar href="BubbleRacer4K.jar"/></resources><application-desc main-class="B"/></jnlp>

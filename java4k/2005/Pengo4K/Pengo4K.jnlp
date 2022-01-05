@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/Pengo4K/"
+  href="Pengo4K.jnlp">
+  <information>
+      <title>Pengo</title>
+      <vendor>L.F.Estivalet - Digital Howler Entertainment</vendor>
+    <homepage href="http://howlerbr.freecoolsite.com/files/pengo4k/"/>
+    <description>Pengo 4k</description>
+    <description kind="short">Pengo4k</description>
+    <icon href="icon.gif"/>
+    <offline-allowed/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <jar href="Pengo4K.jar"/>       
+  </resources>  
+  <application-desc/>
+</jnlp>

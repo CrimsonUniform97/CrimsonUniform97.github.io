@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://unlimited.woogley.net/games/archive/4K05/Rest1-4K/"
+  href="Rest1-4K.jnlp">
+  <information>
+      <title>Rest 1</title>
+      <vendor>L.F.Estivalet - Digital Howler Entertainment</vendor>
+    <homepage href="http://luisoft.o-f.com/files/rest1-4k"/>
+    <description>Rest1 4k</description>
+    <description kind="short">Rest1-4k</description>
+    <icon href="icon.gif"/>
+    <offline-allowed/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+    <jar href="Rest1-4K.jar"/>       
+  </resources>  
+  <application-desc/>
+</jnlp>

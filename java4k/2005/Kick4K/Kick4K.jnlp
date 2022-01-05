@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Kick4K" href="Kick4K.jnlp">
+	<information>
+		<title>Kick 4K</title>
+		<vendor>Joakim Johnson</vendor>
+		<homepage href="http://valhallawebdesign.com/Joakim/Java/4K/Kick"/>
+		<description>Kick!</description>
+		<offline-allowed/>
+	</information>
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+		<jar href="Kick4K.jar"/>
+	</resources>
+	<application-desc/>
+</jnlp>

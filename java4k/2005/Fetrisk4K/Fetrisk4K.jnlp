@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Fetrisk4K/" href="Fetrisk4K.jnlp">
+
+  <information>
+     <title>Fetrisk 4K</title>
+     <vendor>Måns Olson & Åke Rosén</vendor>
+     <homepage href="http://www.x2d.org" />
+     <description>Fetrisk 4k - a j4k competition entry.</description>
+     <offline-allowed />
+   </information>
+
+  <resources>
+     <j2se version="1.4+"/>
+     <jar href="Fetrisk4K.jar" main="true" />
+   </resources>
+
+  <application-desc main-class="FetRisk4k"/>
+
+  <security>
+     <all-permissions/>
+  </security>
+
+</jnlp>

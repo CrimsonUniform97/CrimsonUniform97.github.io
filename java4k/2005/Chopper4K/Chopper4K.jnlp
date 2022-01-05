@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- chopper 4k web start -->
+
+<jnlp spec="1.0+" codebase="http://unlimited.woogley.net/games/archive/4K05/Chopper4K/" href="Chopper4K.jnlp">
+	
+	<information>
+		<title>Chopper 4K</title>
+		<vendor>Dan Sellars</vendor>
+		<homepage href="http://bob.newdawnsoftware.com/~Dan/4k/chopper"/>
+		<description>a (hopefully) 4k side scroller</description>
+		<description kind="short">a top down shooter</description>
+		<!-- <icon href=""/> <icon kind="splash" href="splash.gif"/> -->
+		<offline-allowed/>
+	</information>
+
+	<security>
+		<all-permissions/>
+	</security>
+	
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+		<jar href="Chopper4K.jar"/>
+	</resources>
+
+	<resources os="Windows">
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+	</resources>
+	<application-desc/>
+</jnlp>
