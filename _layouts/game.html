@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <title>The Intra Clinic - {{ page.title }}</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+</head>
+
+<body bgcolor="#000000" background="/images/bcg.gif" text="#FFFFFF" link="#5A5D63" alink="#5A5D63" vlink="#5A5D63">
+
+    <table width="100%" height="80%">
+        <tr>
+            <td width="700">
+                <center>
+                    <table>
+                        <font face="courier" size="6">
+                            <b>The Intra Clinic</b>
+                        </font><br><br>
+                        <font face="courier" size="4">
+                            [ <a href="/">Home</a> | <a href="/archive">Archive</a> | <a href="/team">Team</a> | <a
+                                href="/news">News</a> ]
+                        </font><br>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td width="700">
+
+
+                <hr>
+                <font face="courier" size="5">
+                    <b>{{ page.title }}</b><br>
+                </font>
+                <font face="courier" size="4">
+                    <table border="1px" width="100%">
+                        <tr>
+                            <td width="1px"><img src="screen.png"></td>
+                            <td>
+                                <font size="3">
+                                    {{ page.title }} <code>({{ page.origlink }})</code><br>
+                                    By {{ page.author }}<br>
+                                    {% if page.type == "applet" %}
+                                    <a href="/faq#applet">Applet</a><br>
+                                    {% elsif page.type == "runjar" %}
+                                    <a href="/faq#jar">Runnable JAR</a><br>
+                                    {% else %}
+                                    <a href="/faq#unknown">Unknown file</a><br>
+                                    {% endif %}
+
+                                    {% if page.competition %}
+                                    This game was submitted in the {{ page.competition }} Competition.
+                                    {% else %}
+                                    Non-competition game.
+                                    {% endif %}
+                            </td>
+                            {% if page.type == "runjar" %}
+                            <td><a href="{{ page.jarlink }}">Download</a></td>
+                            {% endif %}
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    {% if page.type == "applet" %}
+    <br>
+    <center>
+        <table border=2 width={{page.appletwidth}} height={{page.appletheight}}>
+            <tr>
+                <td bgcolor="#ffffff">
+                    <applet code={{page.appletcode}} archive={{page.jarlink}} width={{page.appletwidth}}
+                        height={{page.appletheight}}>
+                    </applet>
+                </td>
+            </tr>
+        </table>
+        You need to have Java enabled in your browser to play this game.<br>Click <a href="/faq#applet">here</a> to
+        learn
+        how.
+    </center>
+    {% endif %}
+
+    <h3>Description</h3>
+    {{page.description}}
+    <h3>Instructions</h3>
+    {{page.instructions}}
+    <h3>Installing</h3>
+    {{page.installing}}
+    </font>
+    <hr>
+    </td>
+    </tr>
+
+    </table>
+
+    <font face="courier" size="2">Everything here is (c) copyright <a href="https://twitter.com/notch">Markus
+            Persson</a>
+        and <a href="/copyright">other
+            parties</a>.
+    </font>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
