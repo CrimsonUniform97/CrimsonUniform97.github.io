@@ -85,6 +85,11 @@
     {{page.instructions}}
     <h3>Installing</h3>
     {{page.installing}}
+    {% if page.sourcecode %}
+    <h3>Source Code</h3>
+    Can be downloaded <a href="{{ page.sourcecode }}">here</a>.
+    {{page.installing}}
+    {% endif %}
     </font>
     <hr>
     </td>
