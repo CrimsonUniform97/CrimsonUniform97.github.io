@@ -98,6 +98,11 @@
     Can be downloaded <a href="{{ page.sourcecode }}">here</a>.
     {% endif %}
 
+    {% if page.gallery %}
+    <h3>Gallery</h3>
+    {{page.gallery}}
+    {% endif %}
+
     {% if page.note %}
     <h3>Notes</h3>
     {{ page.note }}
