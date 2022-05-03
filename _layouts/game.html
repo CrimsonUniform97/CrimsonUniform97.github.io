@@ -81,14 +81,23 @@
 
     <h3>Description</h3>
     {{page.description}}
+    
     <h3>Instructions</h3>
     {{page.instructions}}
-    <h3>Installing</h3>
+    
+    <h3>How to play</h3>
     {{page.installing}}
+
+    {% if page.development %}
+    <h3>Development</h3>
+    {{page.development}}
+    {% endif %}
+
     {% if page.sourcecode %}
     <h3>Source Code</h3>
     Can be downloaded <a href="{{ page.sourcecode }}">here</a>.
     {% endif %}
+
     {% if page.note %}
     <h3>Notes</h3>
     {{ page.note }}
