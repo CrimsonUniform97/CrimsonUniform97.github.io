@@ -1,0 +1,205 @@
+body {
+  font-size: 70%;
+  color: #000000;
+  background-color: #000000;
+  margin-top: 2px;
+  margin-left: 3px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+table,
+td,
+th,
+ul,
+ol {
+  font-family: verdana, helvetica, arial, sans-serif;
+}
+
+table,
+input {
+  font-size: 100%;
+}
+
+table.ex {
+  color: #000000;
+  background-color: #000000;
+  font-size: 100%;
+}
+
+table.db {
+  color: #000000;
+  background-color: #4e4e4e;
+  font-size: 100%;
+}
+
+th.db {
+  color: #000000;
+  background-color: #000000;
+}
+
+div {
+  width: 100%;
+}
+
+h1 {
+  font-size: 160%;
+}
+h2 {
+  font-size: 120%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 110%;
+}
+
+td.right {
+  color: #4e4e4e;
+  background-color: #000000;
+}
+
+tr {
+  color: #000000;
+}
+
+td.content {
+  color: #4e4e4e;
+  background-color: #000000;
+}
+
+p.intro {
+  font-size: 100%;
+  font-weight: bold;
+  color: #000000;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+p.introcenter {
+  text-align: center;
+  font-size: 110%;
+  color: #8b4513;
+  background-color: transparent;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+  font-size: 110%;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+span.blue {
+  color: #00008b;
+  background-color: transparent;
+}
+
+span.red {
+  color: #4e4e4e;
+  background-color: transparent;
+}
+
+span.ieonly {
+  color: #000080;
+  background-color: transparent;
+  font-size: 70%;
+}
+
+img.float {
+  float: left;
+}
+
+h1,
+h2,
+h3 {
+  background-color: transparent;
+  color: #000000;
+}
+
+h1.att,
+h2.att,
+h3.att,
+hr.att {
+  background-color: transparent;
+  color: #000000;
+}
+
+table.front {
+  color: #000000;
+  background-color: #8b4513;
+}
+
+th.front {
+  color: #ffffff;
+  background-color: #4e4e4e;
+}
+
+td.front {
+  color: #000000;
+  background-color: #000000;
+}
+
+a:link {
+  color: #181818;
+  background-color: transparent;
+}
+a:visited {
+  color: #181818;
+  background-color: transparent;
+}
+a:active {
+  color: #080808;
+  background-color: transparent;
+}
+a:hover {
+  color: #080808;
+  background-color: transparent;
+}
+
+a.left:link {
+  text-decoration: none;
+  color: #b1b1b1;
+  background-color: transparent;
+}
+a.left:visited {
+  text-decoration: none;
+  color: #b1b1b1;
+  background-color: transparent;
+}
+a.left:hover {
+  text-decoration: underline;
+  color: #838383;
+  background-color: transparent;
+}
+a.left:active {
+  text-decoration: underline;
+  color: #838383;
+  background-color: transparent;
+}
+
+a.right:link {
+  text-decoration: none;
+  color: #b1b1b1;
+  background-color: transparent;
+}
+a.right:visited {
+  text-decoration: none;
+  color: #b1b1b1;
+  background-color: transparent;
+}
+a.right:hover {
+  text-decoration: underline;
+  color: #838383;
+  background-color: transparent;
+}
+a.right:active {
+  text-decoration: underline;
+  color: #838383;
+  background-color: transparent;
+}
