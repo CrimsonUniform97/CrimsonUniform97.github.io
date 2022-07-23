@@ -67,9 +67,16 @@
         <table border=2 width={{page.appletwidth}} height={{page.appletheight}}>
             <tr>
                 <td bgcolor="#ffffff">
+                    {% if page.jarlink %} 
                     <applet code={{page.appletcode}} archive={{page.jarlink}} width={{page.appletwidth}}
                         height={{page.appletheight}}>
                     </applet>
+                    {% else %}
+                    <applet code={{page.appletcode}} width={{page.appletwidth}}
+                        height={{page.appletheight}}>
+                    </applet>
+                    {% endif %}
+
                 </td>
             </tr>
         </table>
