@@ -37,7 +37,7 @@
                             <td width="1px"><img src="screen.png"></td>
                             <td>
                                 <font size="3">
-                                    {{ page.title }} <code>({{ page.origlink }})</code><br>
+                                    {{ page.title }} <code>(<a href="original.html">{{ page.origlink }}</a>)</code><br>
                                     By {{ page.author }}<br>
                                     {% if page.type == "applet" %}
                                     <a href="/faq#applet">Applet</a><br>
@@ -53,8 +53,10 @@
                                     Non-competition game.
                                     {% endif %}
                             </td>
-                            {% if page.type == "runjar" %}
+                            {% if page.jarlink %}
                             <td><a href="{{ page.jarlink }}">Download</a></td>
+                            {% else %}
+                            <td><a href="{{ page.appletcode }}">Download</a></td>
                             {% endif %}
                 </font>
             </td>
@@ -67,13 +69,12 @@
         <table border=2 width={{page.appletwidth}} height={{page.appletheight}}>
             <tr>
                 <td bgcolor="#ffffff">
-                    {% if page.jarlink %} 
+                    {% if page.jarlink %}
                     <applet code={{page.appletcode}} archive={{page.jarlink}} width={{page.appletwidth}}
                         height={{page.appletheight}}>
                     </applet>
                     {% else %}
-                    <applet code={{page.appletcode}} width={{page.appletwidth}}
-                        height={{page.appletheight}}>
+                    <applet code={{page.appletcode}} width={{page.appletwidth}} height={{page.appletheight}}>
                     </applet>
                     {% endif %}
 
@@ -103,6 +104,11 @@
     {% if page.note %}
     <h3>Notes</h3>
     {{ page.note }}
+    {% endif %}
+
+    {% if page.devlog %}
+    <h3>Development</h3>
+    {{ page.devlog }}
     {% endif %}
     </font>
     <hr>
