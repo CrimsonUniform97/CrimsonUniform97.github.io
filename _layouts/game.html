@@ -1,3 +1,24 @@
+<!-- 
+        This page is brought to you by 
+        ___________.__             
+        \__    ___/|  |__   ____   
+          |    |   |  |  \_/ __ \  
+          |    |   |   Y  \  ___/  
+          |____|   |___|  /\___  > 
+                        \/     \/  
+        .___        __                 
+        |   | _____/  |_____________    
+        |   |/    \   __\_  __ \__  \   
+        |   |   |  \  |  |  | \// __ \_ 
+        |___|___|  /__|  |__|  (____  / 
+                 \/                 \/  
+         _________ .__  .__       .__   
+         \_   ___ \|  | |__| ____ |__| ____       
+         /    \  \/|  | |  |/    \|  |/ ___\ 
+         \     \___|  |_|  |   |  \  \  \___ 
+          \______  /____/__|___|  /__|\___  >
+                 \/             \/        \/ 
+-->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 
@@ -56,7 +77,7 @@
                             {% if page.jarlink %}
                             <td><a href="{{ page.jarlink }}">Download</a></td>
                             {% else %}
-                            <td><a href="{{ page.appletcode }}">Download</a></td>
+                            <td><a href="{{ page.classpath }}.class">Download</a></td>
                             {% endif %}
                 </font>
             </td>
@@ -70,11 +91,11 @@
             <tr>
                 <td bgcolor="#ffffff">
                     {% if page.jarlink %}
-                    <applet code={{page.appletcode}} archive={{page.jarlink}} width={{page.appletwidth}}
+                    <applet code={{page.classpath}} archive={{page.jarlink}} width={{page.appletwidth}}
                         height={{page.appletheight}}>
                     </applet>
                     {% else %}
-                    <applet code={{page.appletcode}} width={{page.appletwidth}} height={{page.appletheight}}>
+                    <applet code={{page.classpath}} width={{page.appletwidth}} height={{page.appletheight}}>
                     </applet>
                     {% endif %}
 
@@ -94,7 +115,19 @@
     {{page.instructions}}
 
     <h3>How to play</h3>
-    {{page.installing}}
+    {% if page.type == "applet" %}
+    Open the page with a browser that supports applets. <a href="/faq#applet">Read more</a>.
+    {% elsif page.type == "runjar" %}
+    Download the game file and run it in CMD with this command: "java -cp {{ page.jarlink }} {{ page.classpath }}".
+    <a href="/faq#runjar">Read more</a>.
+    {% else %}
+    Unknown file, please <a href="/team/">contact us</a>.
+    {% endif %}
+
+    {% if page.development %}
+    <h3>Development</h3>
+    {{ page.development }}
+    {% endif %}
 
     {% if page.sourcecode %}
     <h3>Source Code</h3>
@@ -104,11 +137,6 @@
     {% if page.note %}
     <h3>Notes</h3>
     {{ page.note }}
-    {% endif %}
-
-    {% if page.devlog %}
-    <h3>Development</h3>
-    {{ page.devlog }}
     {% endif %}
     </font>
     <hr>
