@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" 
+	codebase="http://www.wurmonline.com/wom/"
+      href="wom.jnlp">
+
+  <information>
+    <title>Wrath of Magranon</title>
+    <vendor>Mojang Specifications</vendor>
+    <homepage href="http://www.wurmonline.com/"/>
+    <description>Wrath of Magranon LWJGL test</description>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+
+    <resources>
+	<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4*" initial-heap-size="64M" max-heap-size="512M"/>
+      <jar href="womclient.jar" main="true"/>
+      <jar href="womres.jar"/>
+      <jar href="lib/lwjgl.jar"/>
+      <jar href="lib/lwjgl_devil.jar"/>
+	<jar href="lib/lwjgl_fmod3.jar"/>
+	<jar href="lib/lwjgl_util.jar"/>
+    </resources>
+
+    <resources os="Windows">
+      <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" initial-heap-size="64M" max-heap-size="256M"/>
+      <nativelib href = "lib/lwjgl-native-win32.jar"/>
+    </resources>
+    <resources os="Linux">
+      <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" initial-heap-size="64M" max-heap-size="256M"/>
+      <nativelib href = "lib/lwjgl-native-linux.jar"/>
+    </resources>
+    <resources os="Mac OS">
+	<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" initial-heap-size="64M" max-heap-size="256M"/>
+	<nativelib href="lib/lwjgl-native-macosx.jar"/>
+    </resources> 
+
+
+  <application-desc main-class="com.mojang.wom.WrathOfMagranon"/>
+</jnlp>
