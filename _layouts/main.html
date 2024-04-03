@@ -1,0 +1,60 @@
+<!-- 
+  ___________.__             .___        __                _________ .__  .__       .__        
+  \__    ___/|  |__   ____   |   | _____/  |_____________  \_   ___ \|  | |__| ____ |__| ____  
+    |    |   |  |  \_/ __ \  |   |/    \   __\_  __ \__  \ /    \  \/|  | |  |/    \|  |/ ___\ 
+    |    |   |   Y  \  ___/  |   |   |  \  |  |  | \// __ \\     \___|  |_|  |   |  \  \  \___ 
+    |____|   |___|  /\___  > |___|___|  /__|  |__|  (____  /\______  /____/__|___|  /__|\___  > v2
+        \/     \/           \/                 \/        \/             \/        \/ 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }} - The Intra Clinic</title>
+    <link rel="stylesheet" href="/files/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="tabs">
+            <div class="logo"></div>
+            <div class="tab active" id="tab1">
+                <img src="/files/btn_home.png">
+            </div>
+            <div class="tab" id="tab2">
+                <a href="/archive/">
+                    <img src="/files/btn_archive.png">
+                </a>
+            </div>
+            <div class="tab" id="tab3">
+                <a href="/news/">
+                    <img src="/files/btn_news.png">
+                </a>
+            </div>
+            <div class="tab" id="tab4">
+                <a href="/team/">
+                    <img src="/files/btn_team.png">
+                </a>
+            </div>
+            <div class="tab" id="tab5">
+                <a href="/buttons/">
+                    <img src="/files/btn_buttons.png">
+                </a>
+            </div>
+            <div class="tab" id="tab6">
+                <a href="https://discord.gg/5a6x7AY">
+                    <img src="/files/btn_discord.png">
+                </a>
+            </div>
+        </div>
+        
+        <div class="frame">
+            <iframe src="/{{ page.framename }}/{{ page.framename }}.html"></iframe>
+            <div class="footer">
+                <a href="http://dejvoss.cz/">Webdesign by DEJVOSS.cz</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

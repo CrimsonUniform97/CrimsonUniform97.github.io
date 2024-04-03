@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    image-rendering: pixelated;
+    background-image: url("stars.png");
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrap {
+    margin-top: 25px;
+}
+
+.tabs {
+    margin: auto;
+    position: absolute;
+    top: -557px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 731px;
+    height: 21px;
+    z-index: 1;
+    color: white;
+    font-size: 18px;
+}
+
+.tab {
+    background-image: url("button_inactive.png");
+    width: 67px;
+    height: 21px;
+    float: right;
+    position: absolute;
+    top: 2px;
+}
+
+.tab:hover {
+    background-image: url("button_hover.png");
+}
+
+.active,
+.active:hover {
+    background-image: url("button_active.png");
+}
+
+#tab1 {
+    right: 354px;
+}
+
+#tab2 {
+    right: 284px;
+}
+
+#tab3 {
+    right: 214px;
+}
+
+#tab4 {
+    right: 144px;
+}
+
+#tab5 {
+    right: 74px;
+}
+
+#tab6 {
+    right: 4px;
+}
+
+.frame {
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    background-image: url("frame.png");
+    width: 731px;
+    height: 536px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+iframe {
+    width: 705px;
+    height: 500px;
+}
+
+.logo {
+    background-image: url("logo.png");
+    width: 159px;
+    height: 21px;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.footer {
+    color: red;
+    margin: auto;
+    position: absolute;
+    top: 515px;
+    left: 166px;
+    font-size: 12px;
+    opacity: 0;
+}
